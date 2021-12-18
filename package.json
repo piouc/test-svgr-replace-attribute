@@ -1,0 +1,16 @@
+{
+  "name": "svgr-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgr": "svgr --typescript --replace-attr-values \"#f0f=currentcolor\" --out-dir . -- play.svg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/cli": "^6.1.2"
+  }
+}
